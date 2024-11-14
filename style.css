@@ -66,6 +66,9 @@ nav {
   left: 20px;
   background-color: rgba(236, 233, 233, 0.53);
   border-style: none;
+  &:hover {
+    background-color: rgba(220, 212, 212, 0.471);
+  }
 }
 .container .box-menu input::placeholder {
   font-family: sans-serif;
@@ -81,6 +84,9 @@ nav {
   left: 25px;
   background-color: rgba(236, 233, 233, 0.53);
   border-style: none;
+  &:hover {
+    background-color: rgb(220, 212, 212, 0.471);
+  }
 }
 .container .box-menu .fare {
   position: relative;
@@ -116,5 +122,8 @@ nav {
   transition: transform 0.5s linear;
 }
 .container .box-menu .box img:hover {
-  transform: scale(1.5);
+  transform: scale(1.1);
+}
+button[class="span"]:hover {
+  cursor: pointer;
 }
