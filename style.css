@@ -127,3 +127,61 @@ nav {
 button[class="span"]:hover {
   cursor: pointer;
 }
+.container .box-menu-1 {
+  position: relative;
+  top: 120px;
+  height: 300px;
+  left: 45px;
+}
+.container .box-menu-1 img[width="295"] {
+  transition: all 0.2s linear;
+}
+.container .box-menu-1 img[width="295"]:hover {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.199),
+    0px 0px 15px rgba(0, 0, 0, 0.199);
+}
+.container .box-menu-2 {
+  position: relative;
+  top: 120px;
+  height: 250px;
+  left: 45px;
+}
+.container .box-menu-2 img {
+  transition: box-shadow 0.2s linear;
+}
+.container .box-menu-2 img:hover {
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.199),
+    0px 0px 15px rgba(0, 0, 0, 0.199);
+}
+.container .box-menu-3 {
+  position: relative;
+  top: 60px;
+  left: 45px;
+  height: 250px;
+}
+.container .box-menu-3 .child-box {
+  position: relative;
+  top: 30px;
+  height: 120px;
+  width: 1420px;
+  border-radius: 15px;
+  border: 1px solid rgba(163, 157, 157, 0.318);
+  display: flex;
+  justify-content: space-around;
+}
+.container .box-menu-3 .child-box .childs {
+  height: 105px;
+  position: relative;
+
+  width: 100px;
+  left: 0px;
+  top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .box-menu-3 .child-box .childs .pre {
+  position: relative;
+  top: 20px;
+  color: blue;
+}
