@@ -185,3 +185,39 @@ button[class="span"]:hover {
   top: 20px;
   color: blue;
 }
+.container .footer {
+  height: 150px;
+  position: relative;
+  top: 50px;
+  left: 45px;
+  width: 1400px;
+  font-family: sans-serif;
+}
+.container .footer p {
+  position: relative;
+  top: 20px;
+}
+.container .footer .footer-sub {
+  position: relative;
+  height: 170px;
+  top: 70px;
+  width: 1525px;
+  right: 45px;
+  font-family: sans-serif;
+  background-color: rgba(229, 227, 227, 0.655);
+  display: flex;
+  gap: 0px;
+  border-bottom: 1px solid grey;
+}
+.container .footer .footer-sub .p {
+  margin-left: 45px;
+  margin-top: 20px;
+  top: 20px;
+  left: 45px;
+}
+.container .footer .footer-sub .p .text {
+  position: relative;
+  right: 10px;
+  font-size: 14px;
+  color: rgb(62, 60, 60);
+}
